@@ -1,0 +1,186 @@
+/**Removes margin attached to body**/
+body {
+    margin: 0px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+/**Begin Home Page Styles**/
+
+/**Begin Nav Styles**/
+.body{
+  margin: 0px;
+  
+}
+.main-nav{
+  background-color: #a3a375;
+  padding: 10px 15px;
+}
+.logo{
+  height: 75px;
+}
+.nav-list{
+  padding: 0px;
+  float: right;
+  list-style: none;  
+}
+.nav-item{
+  float: left;
+  margin-left: 15px;
+}
+.nav-link{
+  color:white;
+  text-decoration: none;
+}
+.nav-link:hover{
+color: #f00;
+text-decoration: overline;}
+/** End Nav Styles**/
+
+/** Start Hero Style**/
+.hero-section {
+    background-image: url('../img/f15eagle.JPG');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position-y:-200px; 
+}
+.brand-name{
+  margin-top:250px;
+  margin:0;
+}
+.brand-background{
+  background-color: rgba(0,0,0,0.3);
+}
+/** End Hero Styles**/
+
+/** Start info-columns Styles**/
+.info-columns{
+  padding: 15px;
+}
+
+.column{
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding: 1%;
+  margin-left: 1%;
+}
+.column-image{
+  height: 250px;
+  width: 100%;
+}
+.column-button{
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #ffe135;
+}
+/***end of column section styles***/
+
+/***start of description section styles***/
+.sprinkles-container::after{
+  content:"";
+  display: block;
+  clear:both;
+}
+.description-column{
+  width: 50%;
+  padding: 15px;
+  float: left;
+}
+.description-column p {
+  padding: 0px 15px;
+}
+.description-image{
+  width: 100%;
+  height: 300px;
+}
+.description-background{
+  background: salmon;
+  height: 300px;
+}
+
+/***end of description section styles***/
+
+/***start footer styles***/
+.footer-container{
+  height: 70px;
+  padding: 15px;
+  border: 1px solid #000;
+  clear: both;
+}
+.social-media-container{
+  }
+.contact-container{
+  width: 70%;
+  text-align: center;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.copyright{
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+.contact-info{
+  display: inline-block;
+  text-align: center;
+}
+
+/***End footer styles***/
+
+/***Contact Page Styles***/
+.form-container{
+  width: 50%
+  padding: 25px 25px 0px 25px;
+  margin: 0 auto;
+  background: rgba();
+}
+
+/***Start About Page Styles***/
+
+.container{
+  height: 400px;
+  width: 100%;
+  border: 4px solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: purple;
+}
+
+.containerone{
+  height: 500px;
+  width: 100%;
+  border: 4px solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: grey;
+}
+
+.insideone{
+  width: 100px;
+  border: 5px solid red;
+  margin: 0 auto;
+  text-align: center; 
+  margin-top: 200px;
+
+  
+}
+.left, .right {
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-color: lightpink;
+}
+.pic{
+  height: 100%;
+  width: 100%;
+}
+
